@@ -16,4 +16,4 @@ conda create -n py310 python=3.10
 python test.py
 ```
 
-** Notice: ** The model runs on GPU in default, but error can occurs if the prompt is too long. In this case, please add device = "cpu". 
+**Notice:**  The model runs on GPU in default, but error can occurs if the prompt is too long. In this case, please add device = "cpu". 

@@ -6,9 +6,9 @@ pipe = pipeline("question-answering", model="google-bert/bert-large-uncased-whol
 # Load model directly
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
-import ipdb
+# import ipdb
 device = torch.device("cuda:1" if torch.cuda.is_available() else "cpu")
-device = "cpu"
+# device = "cpu"
 
 #### load model
 # tokenizer = AutoTokenizer.from_pretrained("google-bert/bert-large-uncased-whole-word-masking-finetuned-squad")

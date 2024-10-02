@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Prerequisites
 Regist huggingface account
 
@@ -18,7 +17,3 @@ python test.py
 ```
 
 ** Notice: ** The model runs on GPU in default, but error can occurs if the prompt is too long. In this case, please add device = "cpu". 
-=======
-# Play-with-Llama
-Deploy Llama locally (using hugging face) and prompt engineering
->>>>>>> 6e29d33472f0c64ccd84cf0e21f5c6745c03d9c9
